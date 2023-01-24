@@ -1,0 +1,57 @@
+.deep-screen .myrow
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.deep-screen .mycolumn
+{
+    flex: 1;
+}
+
+.deep-screen .mycolumn .mycolumn-1,
+.deep-screen .mycolumn .mycolumn-2
+{
+    height: 100%;
+}
+
+.deep-screen .mycolumn-2
+{
+    background: linear-gradient(-45deg, orange, purple);
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.deep-screen.deep-screen-reverse .mycolumn-2
+{
+    background: linear-gradient(-45deg, blue, red);
+}
+
+.btnstyle
+{
+    font-size: 2rem;
+    background: none;
+    border: 2px solid black;
+    border-radius: 4rem;
+    padding: .7rem;
+    transition: 1s;
+}
+
+.btnstyle:hover
+{
+    background-color: black;
+    color: #fff;
+    transition: 1000ms;
+    text-decoration: underline;
+}
+
+.deep-screen.deep-screen-reverse .myrow
+{
+    flex-direction: row-reverse;
+}

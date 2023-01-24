@@ -149,3 +149,21 @@ html
     padding: 2rem;
     flex-basis: 100%;
 }
+
+#about h2
+{
+    font-weight: 600;
+    font-size: 4rem;
+}
+
+#about p
+{
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+#about .myrow .mycolumn .mycolumn-1 img
+{
+    width: 100%;
+    height: 100%;
+} 
