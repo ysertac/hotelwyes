@@ -106,3 +106,48 @@
 {
     opacity: .7;
 }
+
+.mycards
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+
+.mycards > div
+{
+    padding: 2rem;
+    flex-basis: 100%;
+}
+
+.mycards .mycard
+{
+    flex: 33%;
+}
+
+.mycards .mycard img
+{
+    width: 100%;
+    height: 70%;
+}
+
+.mycards .mycard .mycard-body
+{
+    margin: 1rem 0;
+    background-color: greenyellow;
+}
+
+.mycards .mycard .mycard-body h2
+{
+    font-size: 2.5rem;
+}
+
+.mycards .mycard .mycard-body p
+{
+    font-size: 2rem;
+}
+
+/*Resimleri eşit bölmek için resimlerin içinde bulunduğu divin flex özelliğine yüzdelik değer veriyoruz.
+Sonrasında ise resmin css özelliklerinde width ve height değerlerini değiştiriyoruz.*/
+

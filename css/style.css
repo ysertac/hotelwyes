@@ -167,3 +167,36 @@ html
     width: 100%;
     height: 100%;
 } 
+
+#teams > .mycards > div
+{
+    flex: 33%;
+    flex-wrap: wrap;
+}
+
+#teams > .mycards > div > img
+{
+    width: 75%;
+    height: 75%;
+    border-radius: 50%;
+}
+
+#teams
+{
+    background: linear-gradient(45deg,grey,blue,green,greenyellow,yellow,grey);
+}
+
+#teams > .mycards > div > h2
+{
+    font-size: 3rem;
+}
+
+#teams > .mycards > div > p
+{
+    font-size: 2rem;
+}
+
+#teams img:hover
+{
+    opacity: .7;
+}
