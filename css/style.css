@@ -63,12 +63,12 @@ html
 
 .navbar nav a:visited
 {
-    color: blueviolet;
+    color: skyblue;
 }
 
 .navbar nav a:hover
 {
-    color: red;
+    color: greenyellow;
     border-bottom: 2px solid white;
 }
 
