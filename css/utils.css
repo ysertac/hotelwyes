@@ -222,6 +222,11 @@ footer i:hover
         flex: 100%;
     }
 
+    .deep-screen .mycolumn .mycolumn-1 img
+    {
+        width: 100%;
+    }
+
     .gallery-section .mycolumn
     {
         flex: 50%;
