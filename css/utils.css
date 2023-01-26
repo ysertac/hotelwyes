@@ -1,3 +1,8 @@
+/* html
+{
+    font-size: 10px;
+} */
+
 .deep-screen .myrow
 {
     display: flex;
@@ -151,3 +156,79 @@
 /*Resimleri eşit bölmek için resimlerin içinde bulunduğu divin flex özelliğine yüzdelik değer veriyoruz.
 Sonrasında ise resmin css özelliklerinde width ve height değerlerini değiştiriyoruz.*/
 
+.mycontact-form
+{
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.mycontact-form label
+{
+    display: block;
+    margin-bottom: .5rem;
+    font-size: 2rem;
+}
+
+.mycontact-form .myform
+{
+    margin-bottom: 1.5rem;
+}
+
+.mycontact-form input
+{
+    width: 100%;
+    padding: .5rem;
+    border: 2px solid black;
+    border-radius: 50rem;
+    font-size: 2rem;
+}
+
+.mycontact-form button
+{
+    margin-top: 2rem;
+    width: 100%;
+}
+
+footer > p
+{
+    font-size: 2rem;
+}
+
+footer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+footer i
+{
+    color: black;
+    padding: .5rem;
+}
+
+footer i:hover
+{
+    color: dimgrey;
+}
+
+@media(max-width: 768px)
+{
+    .deep-screen .mycolumn
+    {
+        flex: 100%;
+    }
+
+    .gallery-section .mycolumn
+    {
+        flex: 50%;
+    }
+
+    #rooms .mycards
+    {
+        flex-direction: column;
+    }
+}
